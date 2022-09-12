@@ -29,7 +29,7 @@ class TestSnippetDebugging(TestCase):
         snippet_3()
 
         self.assertEqual(
-            "The value of c (True) is True since a (1) is equal to b (1).",
+            "The value of c (True) is True since a (1) is equal to b (1).\n",
             mock_stdout.getvalue()
         )
 
@@ -38,13 +38,13 @@ class TestSnippetDebugging(TestCase):
         snippet_4()
 
         # Instructions say to use a comment, not a print statement
-        self.assertEqual(None, mock_stdout.getvalue())
+        self.assertEqual('', mock_stdout.getvalue())
 
     @mock.patch('sys.stdout', new_callable=io.StringIO)
     def test_snippet_5(self, mock_stdout):
         snippet_5()
 
         self.assertEqual(
-            "The value of o (False) is False since Python is case-sensitive.",
+            "The value of o (True) is True since Python is case-sensitive.\n",
             mock_stdout.getvalue()
         )
