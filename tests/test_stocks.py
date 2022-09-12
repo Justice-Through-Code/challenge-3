@@ -10,7 +10,7 @@ from unittest import mock, TestCase
 from stocks import stock_purchases
 
 
-class TestRippleMediaLists(TestCase):
+class TestStockPurchases(TestCase):
 
     @mock.patch('builtins.input', side_effect=['Ash', '5000', '2'])
     @mock.patch('sys.stdout', new_callable=io.StringIO)
