@@ -31,8 +31,8 @@ def snippet_2():
 
 
 def snippet_3():
-    # TODO: Modify the comparison operator below so the `assert`` statement passes
-    # TODO: Update the print statement to reflect changes to the code
+    # TODO: Modify the comparison operator below so the `assert` statement passes
+    # TODO: Update the print statement to reflect the fact that a 'is equal to' b
 
     a = 1
     b = 1
