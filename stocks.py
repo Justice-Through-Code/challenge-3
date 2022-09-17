@@ -15,8 +15,8 @@ def stock_purchases():
 
     # 1.3 TODO: Uncomment the line below to ask the client which stock they're interested in.
     # NOTE: Take a look at how this input string prints out
-    # stock = input("\nWhich stock are you interested in? Enter the corresponding number:\n1. Amazon\n2. Apple\n3. Facebook\n4. Google\n5. Microsoft\nNumber: ")
-
+    # stock_name = input("\nWhich stock are you interested in? Enter the full name:\nAmazon\nApple\nFacebook\nGoogle\nMicrosoft\nStock Name: ")
+    
     # Now that you have all of the client info, you can check how much they can purchase of the stock
     # they're interested in.
 
