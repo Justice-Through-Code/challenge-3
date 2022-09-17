@@ -28,6 +28,7 @@ NOTE: Notice that there's a `test` _folder_ in this repo instead of just one tes
 
 It is best practice to have your tests separated from your other code in their own folder, as seen here. This is how the repos will be set up from now on. 
 
+And DON'T FORGET: Comment out or delete the calls to your functions-- the tests can't run with them!
 ---
 
 ## Summary
